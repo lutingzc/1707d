@@ -18,4 +18,19 @@ public class TestStringUtils {
 		assertFalse(StringUtils.isBlank("aaaa"));
 		
 	}
+	@Test
+	public void testBandomn() {
+		String s = StringUtils.getRandomStr(10);
+		System.out.println("s is :: "+s);
+	}
+	@Test
+	public void testStrRland() {
+		String s = StringUtils.getRandomStr(25);
+		System.out.println("s is :: "+s+"and 长度是"+s.length());
+	}
+	@Test
+	public void testCnStrn() {
+		String s = StringUtils.getRandomStr(25);
+		System.out.println("s is :: "+s+"changdu"+s.length());
+	}
 }
