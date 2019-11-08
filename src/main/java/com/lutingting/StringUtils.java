@@ -53,7 +53,14 @@ public class StringUtils {
 		Matcher matcher=p.matcher(str);
 		return matcher.find();
 	}
-	
+	/**
+	 * 
+	 * @Title: getRandomStr 
+	 * @Description: 字符
+	 * @param n
+	 * @return
+	 * @return: String
+	 */
 	public static String getRandomStr(int n) {
 		StringBuilder sb=new StringBuilder();
 		Random random=new Random();
