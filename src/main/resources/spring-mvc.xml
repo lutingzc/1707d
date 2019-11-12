@@ -13,7 +13,7 @@
 		
 	<!--  todo --> 
 	<context:component-scan
-		base-package=" com.zhukaige.controller"></context:component-scan>
+		base-package=" com.lutingting.controller"></context:component-scan>
 	<!-- 视图解析图 -->
 	<bean
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">

@@ -6,7 +6,7 @@
 <meta charset="utf-8">
 <title>Insert title here</title>
 <link href="<%=request.getContextPath()%>/css/css.css" rel="stylesheet">
-<script type="text/javascript" src="/resource/bootstrap/js/bootstrap.js"></script>
+<script type="text/javascript" src="resource/bootstrap/js/bootstrap.js"></script>
 </head>
 <body>
 ${info }
