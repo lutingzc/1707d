@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="service-user" />
+        <module name="service-order" />
+        <module name="conﬁg-client" />
+        <module name="register-server" />
+        <module name="gateway-server" />
+        <module name="service-product" />
+        <module name="config-server" />
+        <module name="conﬁg-server" />
+        <module name="zuul-gateway-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="conﬁg-server" target="1.8" />
+      <module name="conﬁge-server" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="config-server" options="-parameters" />
+      <module name="conﬁg-client" options="-parameters" />
+      <module name="conﬁg-server" options="-parameters" />
+      <module name="conﬁge-server" options="-parameters" />
+      <module name="gateway-server" options="-parameters" />
+      <module name="register-server" options="-parameters" />
+      <module name="service-order" options="-parameters" />
+      <module name="service-product" options="-parameters" />
+      <module name="service-user" options="-parameters" />
+      <module name="springcloud-demo" options="-parameters" />
+      <module name="zuul-gateway-server" options="-parameters" />
+    </option>
+  </component>
+</project>
