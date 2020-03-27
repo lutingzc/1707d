@@ -10,10 +10,10 @@
         <module name="service-order" />
         <module name="conﬁg-client" />
         <module name="register-server" />
-        <module name="gateway-server" />
+        <module name="conﬁg-server" />
         <module name="service-product" />
         <module name="config-server" />
-        <module name="conﬁg-server" />
+        <module name="gateway-server" />
         <module name="zuul-gateway-server" />
       </profile>
     </annotationProcessing>
